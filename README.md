@@ -10,3 +10,5 @@ Woodpecker classifier using CNN for Raspberry Pi:
 -Important: Make sure package version for Tensorflow, Keras, and maybe Librosa are the same as versions installable on the Raspberry Pi. 
 
 If other errors occur on Pi, check version of other packages as well (Scipy and numpy for example).
+
+Current implementation uses local directory "data" and sub directories such as "data/woodpecker", "data/notwoodpecker", and "data/pred". Change this in the code and in your directory structure as you see fit.
